@@ -5,7 +5,7 @@ const port = 3000;
 const {
   USERS_API_URL,
   PRODUCTS_API_URL,
-} = require('./urls');
+} = require('./URLs');
 
 const userServiceProxy = httpProxy(USERS_API_URL);
 const productsServiceProxy = httpProxy(PRODUCTS_API_URL);
